@@ -1,0 +1,8 @@
+<!-- default profile assigned to all users -->
+<clickhouse>
+    <profiles>
+        <default>
+            <allow_experimental_database_materialized_postgresql>1</allow_experimental_database_materialized_postgresql>
+        </default>
+    </profiles>
+</clickhouse>
