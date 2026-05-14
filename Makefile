@@ -10,6 +10,12 @@ network:
 up: network
 	$(COMPOSE) up --build
 
+events:
+	cd loader && uv run events-engine.py
+
+ingest:
+	cd loader && uv run events-ingestion.py
+
 down: 
 	$(COMPOSE) down
 
