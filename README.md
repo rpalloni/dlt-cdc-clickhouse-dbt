@@ -18,7 +18,7 @@ Credentials configuration are resolved from `.dlt/secrets.toml`
 
 ### run
 ```
-make up
+make up (runs init scripts both in PG and CH)
 make events (terminal 1)
 make ingest (terminal 2)
 
